@@ -1,0 +1,65 @@
+/* 102C57 */
+/* 102C57 */
+
+@font-face {
+  src: url('../fonts/Poppins-Bold.ttf');
+  /* IE9 Compat Modes */
+  src: url('../fonts/Poppins-Bold.ttf?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../fonts/Poppins-Bold.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-family: Poppins-Bold;
+}
+
+@font-face {
+  src: url('../fonts/Poppins-SemiBold.ttf');
+  /* IE9 Compat Modes */
+  src: url('../fonts/Poppins-SemiBold.ttf?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-family: Poppins-SemiBold;
+}
+
+@font-face {
+  src: url('../fonts/Poppins-Medium.ttf');
+  /* IE9 Compat Modes */
+  src: url('../fonts/Poppins-Medium.ttf?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../fonts/Poppins-Medium.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-family: Poppins-Medium;
+}
+
+@font-face {
+  src: url('../fonts/Poppins-Regular.ttf');
+  /* IE9 Compat Modes */
+  src: url('../fonts/Poppins-Regular.ttf?#iefix') format('embedded-opentype'),
+      /* IE6-IE8 */
+      url('../fonts/Poppins-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-family: Poppins-Regular;
+}
+
+.font-bold{
+  font-family: Poppins-Bold;
+}
+.font-medium{
+  font-family: Poppins-Medium;
+}
+.font-regular{
+  font-family: Poppins-regular;
+}
+
+.text-12{
+  font-size: 12px;
+}
+.text-14{
+  font-size: 14px;
+}
+.text-16{
+  font-size: 16px;
+}
+.text-18{
+  font-size: 18px;
+}
