@@ -4,15 +4,18 @@
       <img src="../assets/images/logo.png" class="object-fit-cover rounded" height="50" width="50" />
       <div class="ps-3 w-100">
         <h4 class="font-medium mb-0">Good Plane</h4>
-        <p class="font-regular text-secondary-emphasis text-14 mb-0">Ragil Samsi</p>
+        <p class="font-regular text-secondary-emphasis text-14 mb-0">{{ userName }}</p>
       </div>
     </section> 
   </div>
 </template>
 <script setup>
+import { useUserStore } from '@/stores/user';
+import { computed } from 'vue';
+
+const userStore = useUserStore()
+const userName = computed(() => {
+  return userStore.getUser().name ?? '-'
+})
 
 </script>
-
-<style lang="scss" scoped>
-
-</style>

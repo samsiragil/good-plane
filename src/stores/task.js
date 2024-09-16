@@ -64,11 +64,9 @@ export const useTaskStore = defineStore('task', () => {
     updateTask,
     deleteTask
   }
-}, plugin);
-
-const plugin = {
+}, {
   persist: {
     key: 'todoTask',
     storage: localStorage
   }
-};
+});

@@ -27,3 +27,11 @@ export const isNotEmpty = (data) => {
 
   return true;
 }
+
+export const generalDelay = (timeout=300) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve()
+    }, timeout);
+  });
+}

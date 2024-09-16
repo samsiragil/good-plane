@@ -44,11 +44,9 @@ export const useCategoryStore = defineStore('category', () => {
     updateCategory,
     deleteCategory
   }
-}, plugin);
-
-const plugin = {
+}, {
   persist: {
     key: 'todoCategory',
     storage: localStorage
   }
-}
+});
