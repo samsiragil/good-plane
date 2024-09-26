@@ -26,7 +26,7 @@ export const useUserStore = defineStore('user', () => {
   }
 }, {
   persist: {
-    key: 'todoUser',
+    key: 'good_plane',
     storage: localStorage
   }
 })

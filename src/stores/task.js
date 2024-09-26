@@ -66,7 +66,7 @@ export const useTaskStore = defineStore('task', () => {
   }
 }, {
   persist: {
-    key: 'todoTask',
+    key: 'good_plane',
     storage: localStorage
   }
 });
